@@ -7,12 +7,14 @@ body{
 }
 #svg{
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    background-color: beige;
+    border-radius: 10px;
 }
 svg {
     width: 40px;
     height: 40px;
-    
+    padding: 5px;
 }
 #circle {
      position: absolute; 
@@ -20,10 +22,17 @@ svg {
     width: 50px;
     border-radius: 50%;
     background-color: #fff;
-    transition: transform .5s, background-color .5s;
-    will-change: transform;
+    transition:  .5s ease
+    /* will-change: transform;  */
 }
 .bgclr{
     background-color: black;
+}
+.h1_darkmode{
+ color: white;
+}
+.dark-mode {
+    transform: translateX(calc(100% + 10px));
+   
 }
 
